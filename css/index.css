@@ -1,0 +1,56 @@
+.container{
+    max-width:80%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin: auto;
+}
+
+.container h3,p{
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 16px;
+}
+
+input,textarea{
+    display: block;
+    border: 2px rgb(84, 55, 55);
+    border-radius: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+}
+
+button{
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 9px;
+    margin: 10px;
+    border: 2px;
+    border-radius: 8px;
+    background-color: rgb(209, 163, 163);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.submitmsg{
+    color: seashell;
+    background-color: rgb(172, 113, 227);
+}
+
